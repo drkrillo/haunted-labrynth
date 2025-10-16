@@ -29,8 +29,16 @@ export function main() {
   const enemySpawns: EnemySpawnData[] = [
     { position: Vector3.create(10, 0, 10), speed: 2.5 },   // Open area in upper left
     { position: Vector3.create(140, 0, 140), speed: 2.0 }, // Open area in lower right  
-    { position: Vector3.create(80, 0, 80), speed: 10.0 }, // Open area in lower right  
-// Open area in center
+    { position: Vector3.create(80, 0, 80), speed: 10.0 },
+    { position: Vector3.create(10, 0, 140), speed: 2.5 },   // Open area in upper left corner
+    { position: Vector3.create(140, 0, 10), speed: 2.0 },   // Open area in lower right corner
+    { position: Vector3.create(10, 0, 10), speed: 2.5 },   // Open area in upper left corner
+    { position: Vector3.create(140, 0, 140), speed: 2.0 }, // Open area in lower right corner
+    { position: Vector3.create(80, 0, 80), speed: 10.0 },
+    { position: Vector3.create(10, 0, 140), speed: 2.5 },   // Open area in upper left corner
+    { position: Vector3.create(140, 0, 10), speed: 2.0 },   // Open area in lower right corner
+    { position: Vector3.create(10, 0, 10), speed: 2.5 },   // Open area in upper left corner
+    { position: Vector3.create(140, 0, 140), speed: 2.0 }, // Open area in lower right corner
   ]
   
   // Create enemies
